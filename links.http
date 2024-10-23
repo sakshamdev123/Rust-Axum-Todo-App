@@ -1,0 +1,25 @@
+# GET http://localhost:8000/
+
+# GET http://localhost:8000/user/23
+
+# POST http://localhost:8000/user/details
+# Content-Type: application/json
+
+# {
+#     "user_id": 2
+# }
+
+# GET http://localhost:8000/todos/all
+
+GET http://localhost:8080
+
+# POST http://localhost:8000/todo/create
+# Content-Type: application/json
+
+# {
+#     "title": "Todo 3"
+# }
+
+# PUT http://localhost:8000/todo/1/mark/completed
+
+# DELETE  http://localhost:8000/todo/3/delete
